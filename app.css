@@ -1,0 +1,152 @@
+body {
+    background-color: #343330;
+    text-align: justify;
+}
+
+.boxed {
+    max-width: 210mm;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+ }
+
+.page {
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 20px 4px;
+    min-height: 297mm;
+    margin-bottom: 15px;
+    background-color: gainsboro;
+    color: #080808;
+    font-size: 15px;
+}
+
+.page * a {
+    color: #080808;
+}
+
+.header {
+    background-color: #080808;
+    text-align: center;
+}
+
+.avatar {
+    position: relative;
+    top: -10px;
+    border-width: 1px;
+    border-color: goldenrod;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+
+.header-name {
+    color: white;
+    font-size: 36px;
+    font-family: 'Poiret One', cursive;
+}
+
+.header-title {
+    color: goldenrod;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: goldenrod;
+    padding-bottom: 5px;
+}
+
+.fa-inverse {
+    color: goldenrod;
+}
+
+.section {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.section-header-text {
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #080808;
+}
+
+.section-content {
+    padding-left: 15px;
+}
+
+.timeline {
+    margin-left: 24px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #080808;
+    list-style-type: none;
+}
+
+.timeline li {
+  position: relative;
+}
+
+.timeline li{
+    padding-bottom: 10px;
+}
+
+.timeline li::before {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 4px;
+    top: 19px;
+    left: -19px;
+    background: #080808;
+    content: "";
+}
+
+.timeline li span {
+    display: block;
+}
+
+.timeline li span.location {
+    font-size: 10px;
+}
+
+.timeline li span.role {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.timeline li span.description {
+    font-size: 12px;
+}
+
+.skills {
+    padding-top: 10px;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.progress-bar {
+    color: goldenrod;
+    background-color: #080808;
+    padding-left: 10px;
+    text-align: left;
+}
+
+@media (max-width: 767px){
+
+    .boxed {
+        margin-top: 0px;
+    }
+    .page {
+        margin-bottom: 0px;
+        box-shadow: none;
+    }
+
+    .avatar {
+        margin-top: 30px;
+    }
+}
