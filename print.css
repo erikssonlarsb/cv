@@ -13,16 +13,12 @@
     }
 
     .boxed {
-        margin-top: 0px;
+        margin: 0px;
      }
 
-     .header {
+    .header {
          background-color: #080808 !important;
-     }
-
-     .avatar {
-         margin-top: 30px;
-     }
+    }
 
     .header-name {
         color: white !important;
