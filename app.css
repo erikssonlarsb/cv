@@ -53,16 +53,12 @@ body {
 }
 
 .main {
+    padding-top: 15px;
     padding-right: 15px;
 }
 
 .fa-inverse {
     color: goldenrod;
-}
-
-.section {
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .section-header-text {
@@ -78,10 +74,7 @@ body {
 }
 
 .timeline {
-    margin-left: 24px;
-    margin-top: 10px;
     padding-left: 15px;
-    padding-right: 15px;
     border-left: 1px;
     border-left-style: solid;
     border-left-color: #080808;
