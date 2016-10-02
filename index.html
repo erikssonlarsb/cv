@@ -14,11 +14,10 @@
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Poiret+One" rel="stylesheet">
     </head>
     <body ng-app="cv" ng-controller="AppController" class="boxed">
-
         <div class="container-fluid">
             <div class="row page"> <!-- First page -->
                 <div class="col-sm-12">
-                    <div class="row header">
+                    <div class="row header"> <!-- Header section -->
                         <div class="col-sm-12">
                             <div class="row">
                                 <div class="col-sm-12 header-avatar">
@@ -37,8 +36,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-7"> <!-- Main section -->
+                    <div class="row main"> <!-- Main section -->
+                        <div class="col-sm-7">
                             <div class="row">
                                 <div class="col-sm-12 section"> <!-- About me -->
                                     <div class="row">
@@ -117,15 +116,6 @@
                                                 <span class="description">
                                                     <p>
                                                         Client service, technical consulting and support on computer hardware and software as well as consumer electronics.
-                                                    </p>
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span class="location">Jan 2003 - Apr 2004 | Kristinehamn, Sweden</span>
-                                                <span class="role">Second Liutenant | SWEDISH ARMY </span>
-                                                <span class="description">
-                                                    <p>
-                                                        Military service as section leader of an Artillery Forward Observer team.
                                                     </p>
                                                 </span>
                                             </li>
@@ -254,8 +244,8 @@
             </div>
             <div class="row page"> <!-- 2:nd page -->
                 <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-sm-7"> <!-- Main section -->
+                    <div class="row main"> <!-- Main section -->
+                        <div class="col-sm-7">
                             <div class="row">
                                 <div class="col-sm-12 section"> <!-- Education -->
                                     <div class="row">
@@ -268,28 +258,49 @@
                                         </div>
                                     </div>
                                     <div class="row section-content">
-                                        <ul class="timeline">
-                                            <li>
-                                                <span class="location">2006 - 2011 | Uppsala University</span>
-                                                <span class="role">(MSc) Sociotechnical Systems Engineering</span>
-                                                <span class="description">
-                                                    <p>
-                                                        Sociotechnical Systems Engineering is a programme for a Master of Science in Engineering degree at Uppsala University.
-                                                        The education is interdisciplinary and combines science and technology with studies in humanities and social science.
-                                                    </p>
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <span class="location">2004 - 2006 | Luleå University of Technology</span>
-                                                <span class="role">Arena Media, Music and Technology</span>
-                                                <span class="description">
-                                                    <p>
-                                                        Arena Media, Music and Technology is a unique education with focus on technology within the media and entertainment industry;
-                                                        ranging from signal processing and theoretical acoustics to graphical design and TV production.
-                                                    </p>
-                                                </span>
-                                            </li>
-                                        </ul>
+                                        <div class="col-sm-12">
+                                            <ul class="timeline">
+                                                <li>
+                                                    <span class="location">2006 - 2011 | Uppsala University</span>
+                                                    <span class="role">(MSc) Sociotechnical Systems Engineering</span>
+                                                    <span class="description">
+                                                        <p>
+                                                            Sociotechnical Systems Engineering is a programme for a Master of Science in Engineering degree at Uppsala University.
+                                                            The education is interdisciplinary and combines science and technology with studies in humanities and social science.
+                                                        </p>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="location">2004 - 2006 | Luleå University of Technology</span>
+                                                    <span class="role">Arena Media, Music and Technology</span>
+                                                    <span class="description">
+                                                        <p>
+                                                            Arena Media, Music and Technology is a unique education with focus on technology within the media and entertainment industry;
+                                                            ranging from signal processing and theoretical acoustics to graphical design and TV production.
+                                                        </p>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="location">2003 - 2004 | The Swedish Army Artillery Regiment</span>
+                                                    <span class="role">Artillery Forward Observer</span>
+                                                    <span class="description">
+                                                        <p>
+                                                            Military service as the section leader (Second Liutenant) for an Artillery Forward Observer team.
+                                                        </p>
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <span class="location">2001 - 2002 | Sundsta-Älvkulle Secondary School</span>
+                                                    <span class="role">Qualified Graduate</span>
+                                                    <span class="description">
+                                                        <p>
+                                                            Supplementary upper secondary school education within computer science with focus on operating systems,
+                                                            object oriented programming and computer network architecture.
+                                                        </p>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -332,6 +343,13 @@
                                                 </li>
                                                 <li>
                                                     <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 90%;">
+                                                            Bootstrap
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="progress">
                                                         <div class="progress-bar" role="progressbar" style="width: 80%;">
                                                             RESTful Web Services
                                                         </div>
@@ -351,7 +369,131 @@
                                                         </div>
                                                     </div>
                                                 </li>
+                                                <li>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 70%;">
+                                                            MS SQL
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 60%;">
+                                                            Node.js
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" style="width: 40%;">
+                                                            MongoDB
+                                                        </div>
+                                                    </div>
+                                                </li>
                                             </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row main">
+                        <div class="col-sm-12 section">
+                            <div class="row">
+                                <div class="col-sm-12 section-header">
+                                    <span class="fa-stack fa-lg">
+                                      <i class="fa fa-circle fa-stack-2x"></i>
+                                      <i class="fa fa-folder-open fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    <span class="section-header-text">Notable Projects</span>
+                                </div>
+                            </div>
+                            <div class="row section-content">
+                                <div class="col-sm-6 project">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <span class="title">Web Application Framework</span>
+                                            <span class="description">
+                                                <p>
+                                                    I have implemented a framework that is used to build customize trading applications for the web.
+                                                    The front-end is a single page application build with AngularJS and Bootstrap. The Back-end implemented in Java.
+                                                    Initially intended as a consulting tool, but is now sold as a licensed product.
+                                                </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <percent value="0.5" title="'Full-stack Web '"></percent>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <percent value="0.5" title="'REST API Design'"></percent>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 project">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <span class="title">White-labeled Commodity Trading</span>
+                                            <span class="description">
+                                                <p>
+                                                    In a series of projects I have lead the development of a solution where institutions and
+                                                    commodity brokers can trade OTC commodity derivatives online. The solution is hosted by a major
+                                                    Swedish bank, and brokers can use white-labeled applications to offer trading to their clients.
+                                                </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <percent value="0.6" title="'System Architecture'"></percent>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <percent value="0.4" title="'Commodity Trading'"></percent>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row section-content">
+                                <div class="col-sm-6 project">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <span class="title">Cross Asset Risk</span>
+                                            <span class="description">
+                                                <p>
+                                                    Implementation of a cross asset risk management solution for a Russian bank. My main focus was
+                                                    on pre-trade risk for brokerage. High Frequency Trading added an extra level of complexity.
+                                                </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <percent value="0.6" title="'Pre-trade Risk'"></percent>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <percent value="0.4" title="'Electronic Trading'"></percent>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 project">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+                                            <span class="title">Treasury Management</span>
+                                            <span class="description">
+                                                <p>
+                                                    Implementation of a Treasury solution for a UAE bank. I was responsible for the
+                                                    trade flow integration to brokers and exchanges as well as trade allocation rules.
+                                                </p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <percent value="0.80" title="'Integrations'"></percent>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <percent value="0.2" title="'Treasury Management'"></percent>
                                         </div>
                                     </div>
                                 </div>
@@ -363,6 +505,9 @@
         </div>
 
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/jquery-circle-progress/dist/circle-progress.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
