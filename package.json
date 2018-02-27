@@ -1,11 +1,16 @@
 {
   "name": "cv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lars Eriksson's CV",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erikssonlarsb/cv.git"
+  },
   "keywords": [
     "CV"
   ],
   "author": "lars.eriksson",
+  "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
     "bootstrap": "^3.3.7",
