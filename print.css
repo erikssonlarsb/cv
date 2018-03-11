@@ -5,11 +5,12 @@
 
     @page {
         margin: 0in;
+        size: A4;
     }
 
     .page {
         background-color: gainsboro !important;
-        margin-bottom: -1px !important;
+        margin-bottom: 0px !important;
     }
 
     .boxed {
@@ -26,6 +27,7 @@
 
     .header-title {
         color: goldenrod !important;
+        margin-bottom: -1px !important;
     }
 
     a[href]:after {

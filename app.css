@@ -73,6 +73,11 @@ body {
     padding-left: 15px;
 }
 
+.section-content-text {
+    padding-left: 30px;
+    font-size: 12px;
+}
+
 .timeline {
     padding-left: 15px;
     border-left: 1px;
